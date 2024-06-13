@@ -22,7 +22,7 @@ namespace ChuongCustom
             _button.onClick.AddListener(OnClickButton);
 
             _amountText.text = $"x{_amount}";
-            /*_priceText.text = $"$ {_price}";*/
+            _priceText.text = $"$ {_price}";
         }
 
         private void OnClickButton()
